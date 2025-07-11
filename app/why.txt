@@ -1,0 +1,16 @@
+
+"use client"
+import Image from "next/image";
+import { useState } from "react";
+
+export default function Home() {
+  
+  return (
+    <>
+    <div className="h-screen w-screen flex items-center justify-center bg-amber-100">
+      <Home/>
+
+    </div>
+    </>
+  );
+}
