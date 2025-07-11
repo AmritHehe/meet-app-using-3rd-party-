@@ -1,3 +1,4 @@
+import MeetingTypeList from "@/components/ui/MeetingTypeList";
 import React, { useEffect } from "react";
 
 export default function Home(){ 
@@ -17,6 +18,7 @@ export default function Home(){
                     </div>
                 </div>
             </div>
+            <MeetingTypeList/>
         </section>
     </>
 }
